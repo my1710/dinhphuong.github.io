@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    /*width: 980px;*/
+    margin: 0 auto;
+}
+header{
+    /*width: 980px;*/
+    height: 175px;
+    background: rgb(179, 228, 255);
+}
+.tenshop{
+    margin: 25px 25px;
+    height: auto;
+    padding-left: 40px;
+}
+.fa{
+    width: 150px;
+   height: 150px;
+   background-color: #5A74C9;
+   transition: all .5s ease;
+}
+.fa:hover{
+    width: 300px;
+    background-color: #CFF9A9;
+}
+.login{
+    float: right;
+    margin-right: 5px;
+    margin-top: 70px;
+    font-size: 16px;
+}
+.log {
+    margin: 60px 5px;
+    float: right;
+}
+.anh{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.search{
+    line-height: 35px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+nav{
+    height: 35px;
+    background: blue;
+    margin-bottom: 10px;
+    position: relative;
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+nav .menu ul li a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}/*
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}*/
+.menu a:hover{
+background: #f1f1f1;
+color: #333;
+}/*
+.sub_menu li{
+    display: none;
+}*/
+.menu li{
+    position: relative;
+}
+.sub_menu{
+    background: #2cebfd;
+    display: none;
+    position: absolute;
+}
+.menu li:hover .sub_menu{
+    display: block;
+}
+.sub_menu li{
+    margin-left: 0 !important;
+}
+article .sptop3{
+    text-align: center;
+}
+article .new_list .new_item{
+    width: 28%;
+    padding: 1%;
+    float: left;
+    border: 1px solid rgb(132, 132, 132);
+    margin-right: 3%;
+    margin-top: 20px;
+}
+article .new_list .new_item .a2{
+    margin-top: 15px;
+}
+article .new_list .new_item .a3{
+    margin-top: 15px;
+}
+footer{
+    margin-top: 15px;
+    height: 90px;
+    background: rgb(179, 228, 255);
+    line-height: 90px;
+}
+footer .thongtin{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
